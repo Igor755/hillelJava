@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main (String[] args) {
 
-        Scanner num = new Scanner(System.in); 
+        Scanner num = new Scanner(System.in);
         System.out.print("Please input first number: ");
         double num_1 = num.nextDouble();
         System.out.print("Please input second number: ");
@@ -18,7 +18,7 @@ public class Calculator {
         System.out.println("Multiplication is: " + (num_1 * num_2));
         if (num_2 == 0)
         {
-            System.out.println("Division is: Don't delete on zero");
+            System.out.println("Division is:  ERROR - You must know, that you can't divide on a zero");
         }
         else
         {
