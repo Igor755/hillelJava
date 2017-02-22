@@ -7,6 +7,6 @@ public class Fish extends Home {
     }
 
     public String voice() {
-        return "....";
+        return "...............";
     }
 }

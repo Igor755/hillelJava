@@ -13,11 +13,11 @@ public class DogPov extends Home{
         if (isTrained) {
 
         }
-        System.out.println("OK, go home!");
+        System.out.println("ok, go home!");
     }
 
     public String voice() {
-        String voice = super.voice() + " Woof!";
+        String voice = super.voice() + " Gav-Gav";
         if (isTrained) {
             voice += " I can take you home.";
         }
